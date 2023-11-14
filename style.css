@@ -1,0 +1,30 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+body{
+  background-color: #e9e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.accordion{
+  width: 600px;
+  background-color: #fff;
+  padding: 20px 50px;
+}
+.title{
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid #040404; 
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.active + div {
+  display: none;
+}
+
+
